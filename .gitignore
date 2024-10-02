@@ -1,0 +1,43 @@
+# Virtual Environment
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Large files and data
+*.npy
+*.pyd
+*.dll
+
+# Node modules (if you have a frontend)
+node_modules/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# TensorFlow specific
+*.pb
+*.pbtxt
+
+# Any other large files you want to exclude
+X_preprocessed.npy
+y_preprocessed.npy
